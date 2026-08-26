@@ -1,0 +1,10 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="34" fill="#0B1020"/>
+  <rect x="142" y="116" width="916" height="528" rx="30" fill="#111827" stroke="#28445A"/>
+  <rect x="206" y="184" width="360" height="54" rx="14" fill="#38BDF8" opacity=".78"/>
+  <rect x="206" y="286" width="788" height="56" rx="14" fill="#F8FAFC" opacity=".1"/>
+  <rect x="206" y="374" width="788" height="56" rx="14" fill="#F8FAFC" opacity=".1"/>
+  <rect x="206" y="462" width="380" height="74" rx="18" fill="#22C55E" opacity=".84"/>
+  <path d="M720 208H940M720 258H900M720 308H970" stroke="#CBD5E1" stroke-width="12" stroke-linecap="round" opacity=".38"/>
+  <text x="142" y="704" fill="#CBD5E1" font-family="Inter, Arial" font-size="28" font-weight="700">PHP Web Form System Placeholder</text>
+</svg>

@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "Email",
+    "label": "neelpatel0179@gmail.com",
+    "url": "mailto:neelpatel0179@gmail.com",
+    "icon": "mail"
+  },
+  {
+    "platform": "LinkedIn",
+    "label": "linkedin.com/in/neelpatel0109",
+    "url": "https://www.linkedin.com/in/neelpatel0109",
+    "icon": "linkedin"
+  },
+  {
+    "platform": "GitHub",
+    "label": "github.com/Neel-Patel-0109",
+    "url": "https://github.com/Neel-Patel-0109",
+    "icon": "github"
+  }
+]

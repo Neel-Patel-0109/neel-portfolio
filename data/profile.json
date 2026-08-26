@@ -1,0 +1,24 @@
+{
+  "name": "Neel Patel",
+  "role": "Python Developer | Machine Learning | Data Science",
+  "tagline": "Building real-world solutions with Python, Machine Learning, and data-driven technologies.",
+  "location": "Greater Ahmedabad Area",
+  "email": "neelpatel0179@gmail.com",
+  "phone": "",
+  "profileImage": "assets/images/profile-placeholder.svg",
+  "resumeUrl": "assets/resume/Neel_patel_CV.pdf",
+  "shortBio": "Information Technology student focused on Python, Machine Learning, Data Science, and Artificial Intelligence.",
+  "longBio": "I am an Information Technology student passionate about Python, Machine Learning, Data Science, and Artificial Intelligence. I enjoy learning new technologies and applying them to solve real-world problems. I have practical exposure to Python, NumPy, Pandas, data analysis, data visualization, preprocessing, and machine learning concepts through internships and hands-on learning.",
+  "careerFocus": "I am focused on improving my technical skills and open to internships, collaborations, and opportunities in AI, ML, and Data Science.",
+  "callToAction": [
+    { "label": "View Projects", "url": "#projects", "style": "primary" },
+    { "label": "Download Resume", "url": "assets/resume/Neel_patel_CV.pdf", "style": "secondary" },
+    { "label": "Contact Me", "url": "#contact", "style": "ghost" }
+  ],
+  "focusCards": [
+    { "title": "Python Development", "description": "Writing clear, practical Python for data workflows, automation, and problem solving." },
+    { "title": "Machine Learning", "description": "Learning model training, preprocessing, evaluation, and prediction workflows." },
+    { "title": "Data Science", "description": "Exploring datasets with Pandas, NumPy, visualization, and structured analysis." },
+    { "title": "Real-World Solutions", "description": "Connecting technical learning with useful outcomes for people and teams." }
+  ]
+}

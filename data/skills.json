@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Programming",
+    "items": ["Python", "JavaScript", "PHP Basics"]
+  },
+  {
+    "category": "Data Science",
+    "items": ["Data Science", "Data Analysis", "NumPy", "Pandas", "Data Visualization", "Preprocessing"]
+  },
+  {
+    "category": "Machine Learning",
+    "items": ["Machine Learning", "Model Concepts", "Prediction Workflows", "Feature Preparation"]
+  },
+  {
+    "category": "Web Development",
+    "items": ["HTML", "CSS", "JavaScript", "Forms", "Responsive UI"]
+  },
+  {
+    "category": "Cloud & Tools",
+    "items": ["Git", "GitHub", "AWS Lambda", "Amazon EC2", "Amazon Cognito"]
+  }
+]

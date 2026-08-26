@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neel Patel - Python Developer, Machine Learning, and Data Science portfolio.">
+  <meta name="theme-color" content="#2563eb">
+  <title>Neel Patel | Python Developer | ML &amp; Data Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Animated Gradient Mesh Background -->
+  <div class="gradient-mesh" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Custom Cursor Tracker -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-outline" aria-hidden="true"></div>
+
+  <div class="page-loader" id="pageLoader" aria-hidden="true">
+    <div class="loader-mark">NP</div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="Neel Patel home">
+      <span class="brand-mark">NP</span>
+      <span class="brand-text">Neel Patel</span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-ambient" aria-hidden="true"></div>
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" id="heroLocation">Greater Ahmedabad Area</p>
+          <h1 id="heroName">Neel Patel</h1>
+          <p class="role" id="heroRole">Python Developer | Machine Learning | Data Science</p>
+          <p class="hero-tagline" id="heroTagline">Building real-world solutions with Python, Machine Learning, and data-driven technologies.</p>
+          <div class="hero-actions" id="heroActions"></div>
+          <div class="hero-signal" aria-label="Portfolio highlights">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Data Science</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <div class="profile-image-wrap">
+              <img id="profileImage" src="" alt="Neel Patel profile portrait">
+              <div class="profile-fallback" id="profileFallback">NP</div>
+            </div>
+            <div class="metric-grid">
+              <div><strong>45</strong><span>Days DS Internship</span></div>
+              <div><strong>15</strong><span>Days Web Internship</span></div>
+              <div><strong>AI/ML</strong><span>Career Focus</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+        <h2>Focused on practical Python, data, and AI problem solving.</h2>
+      </div>
+      <div class="about-layout">
+        <article class="about-story reveal">
+          <p id="longBio"></p>
+          <p id="careerFocus"></p>
+        </article>
+        <div class="focus-grid reveal" id="focusCards"></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Core Skills &amp; Technical Expertise.</h2>
+      </div>
+      <div class="skills-grid reveal" id="skillsGrid"></div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Projects That Demonstrate Practical Problem Solving.</h2>
+      </div>
+      <div class="project-grid reveal" id="projectGrid"></div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Hands-on internship exposure across data science and web development.</h2>
+      </div>
+      <div class="timeline reveal" id="experienceTimeline"></div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Academic path in Information Technology.</h2>
+      </div>
+      <div class="education-grid reveal" id="educationGrid"></div>
+    </section>
+
+    <section class="section" id="certificates">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Certificates</p>
+        <h2>Certificates That Reflect My Learning Journey.</h2>
+      </div>
+      <div class="certificate-grid reveal" id="certificateGrid"></div>
+    </section>
+
+    <section class="section achievements-section" id="achievements">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Achievements</p>
+        <h2>Hackathon Wins and Technical Recognition.</h2>
+      </div>
+      <div class="achievement-grid reveal" id="achievementGrid"></div>
+    </section>
+
+    <section class="section resume-section" id="resume">
+      <div class="resume-panel reveal">
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h2>Get a complete snapshot of my technical profile in one document..</h2>
+        </div>
+        <a class="btn btn-primary" id="resumeButton" href="#" target="_blank" rel="noopener">View Resume</a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Open to internships, collaborations, and AI/ML opportunities.</h2>
+      </div>
+      <div class="contact-layout reveal">
+        <div class="contact-card">
+          <h3>Let us connect</h3>
+          <p id="contactBio"></p>
+          <div class="contact-links" id="contactLinks"></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Message<textarea name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Email</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong id="footerName">Neel Patel</strong> <span id="footerRole">Python Developer | Machine Learning | Data Science</span></p>
+    <div id="footerLinks"></div>
+  </footer>
+
+  <dialog class="project-modal" id="projectModal">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Close details">&times;</button>
+    <div id="modalContent"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>

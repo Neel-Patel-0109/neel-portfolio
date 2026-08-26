@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Certificate of Participation – tarkShaastra 2k26 ",
+    "issuer": "Lakshya 2.0 – TechFest LDCE",
+    "date": "2026",
+    "imageUrl": "assets/certificates/LDCE.png",
+    "credentialUrl": "",
+    "description": "Participated in tarkShaastra 2k26 Hackathon as part of Lakshya 2.0 – TechFest LDCE."
+  },
+  {
+    "title": "Idea Submission - Tic Tech Toe '26",
+    "issuer": "Tic Tech Toe",
+    "date": "2026",
+    "imageUrl": "assets/certificates/tic-tac-toe.png",
+    "credentialUrl": "",
+    "description": "Certificate of participation for idea submission."
+  },
+  {
+    "title": "Cloud Knight Workshop - ACM PDEU",
+    "issuer": "ACM PDEU",
+    "date": "2024",
+    "imageUrl": "assets/certificates/PDEU.png",
+    "credentialUrl": "",
+    "description": "Participated in a cloud-focused technical workshop."
+  },
+  {
+    "title": "Introduction to HTML, CSS, & JavaScript",
+    "issuer": "Coursera / Platform Name",
+    "date": "2024",
+    "imageUrl": "assets/certificates/html-css-js.png",
+    "credentialUrl": "",
+    "description": "Completed foundational training in frontend web technologies."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "company": "360 Design",
+    "role": "Data Science and Machine Learning Intern",
+    "duration": "June 2024 - August 2024",
+    "location": "Ahmedabad",
+    "details": [
+      "Completed a 45-day internship in Data Science.",
+      "Gained basic knowledge of Python and data analysis.",
+      "Worked on small datasets and preprocessing tasks.",
+      "Learned fundamentals of machine learning concepts."
+    ]
+  },
+  {
+    "company": "PATEL WEB SOLUTION",
+    "role": "Website Design with PHP Intern",
+    "duration": "August 2023 - August 2023",
+    "location": "Ahmedabad",
+    "details": [
+      "Completed a 15-day internship in Web Development.",
+      "Worked on website design using HTML, CSS, and basic PHP.",
+      "Developed simple web pages and forms.",
+      "Learned basics of backend integration using PHP."
+    ]
+  }
+]

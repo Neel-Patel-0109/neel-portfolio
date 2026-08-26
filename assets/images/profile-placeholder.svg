@@ -1,0 +1,10 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Neel Patel profile placeholder</title>
+  <desc id="desc">Abstract professional profile placeholder with NP initials.</desc>
+  <rect width="640" height="640" rx="72" fill="#0B1020"/>
+  <circle cx="172" cy="150" r="150" fill="#38BDF8" opacity=".18"/>
+  <circle cx="486" cy="494" r="180" fill="#22C55E" opacity=".16"/>
+  <path d="M145 418C176 338 238 298 320 298C402 298 464 338 495 418C504 442 486 468 460 468H180C154 468 136 442 145 418Z" fill="#F8FAFC" opacity=".12"/>
+  <circle cx="320" cy="236" r="76" fill="#F8FAFC" opacity=".16"/>
+  <text x="320" y="342" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="800">NP</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="34" fill="#0B1020"/>
+  <circle cx="336" cy="276" r="72" fill="#38BDF8" opacity=".7"/>
+  <circle cx="606" cy="176" r="56" fill="#22C55E" opacity=".72"/>
+  <circle cx="812" cy="342" r="82" fill="#38BDF8" opacity=".52"/>
+  <circle cx="522" cy="506" r="66" fill="#22C55E" opacity=".58"/>
+  <path d="M396 250L552 194M658 210L750 296M746 376L584 472M478 472L374 330M384 314L754 338" stroke="#F8FAFC" stroke-width="10" opacity=".28"/>
+  <rect x="124" y="594" width="952" height="72" rx="20" fill="#111827" stroke="#28445A"/>
+  <rect x="154" y="618" width="536" height="24" rx="12" fill="#38BDF8"/>
+  <text x="124" y="704" fill="#CBD5E1" font-family="Inter, Arial" font-size="28" font-weight="700">Machine Learning Prediction Placeholder</text>
+</svg>
