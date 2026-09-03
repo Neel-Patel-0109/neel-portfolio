@@ -1,92 +1,167 @@
 [
   {
-  "title": "SMS Spam Detection System",
-  "category": "Machine Learning / NLP",
-  "shortDescription": "A machine learning model that classifies SMS messages as spam or ham using NLP techniques.",
-  "detailedDescription": "This project focuses on building an SMS Spam Detection System using Natural Language Processing (NLP) and Machine Learning. It involves preprocessing raw text data through tokenization, stopword removal, and stemming, followed by feature extraction using TF-IDF. A Multinomial Naive Bayes classifier is trained on the processed data to accurately classify messages as spam or ham. The model achieves high performance with strong accuracy and precision, and supports real-time SMS prediction. This project demonstrates practical implementation of text classification, feature engineering, and evaluation techniques.",
-  "techStack": ["Python", "Scikit-learn", "NLP", "TF-IDF", "Pandas", "NumPy"],
-  "features": [
-    "Text preprocessing (tokenization, stopword removal, stemming)",
-    "Feature extraction using TF-IDF",
-    "Model : Multinomial Naive Bayes classification",
-    "High accuracy and precision model",
-    "Real-time SMS classification (Spam/Ham)",
-    "Model evaluation using confusion matrix"
-  ],
-  "mainImage": "assets/project-media/sms-spam-main.png",
-  "mediaGallery": [
-    {
-      "type": "image",
-      "title": "Model Output - Spam",
-      "url": "assets/project-media/sms-spam-output-spam.png",
-      "alt": "SMS spam detection prediction output"
-    },
-    {
-      "type": "image",
-      "title": "Model Output - Ham",
-      "url": "assets/project-media/sms-spam-output-ham.png",
-      "alt": "SMS spam detection prediction output"
-    }
-  ],
-  "outputScreenshots": [
-    "assets/project-media/sms-spam-output-spam.png",
-    "assets/project-media/sms-spam-output-ham.png"
-  ],
-  "demoVideo": "",
-  "liveDemoLink": "",
-  "githubLink": "https://github.com/Neel-Patel-0109/SMS-Spam",
-  "status": "Completed",
-  "highlight": true
-},
-{
-  "title": "Movie Recommendation System",
-  "category": "Machine Learning / Recommendation System",
-  "shortDescription": "A content-based movie recommendation system that suggests similar movies using NLP and cosine similarity techniques.",
-  "detailedDescription": "This project focuses on building an intelligent Movie Recommendation System using Machine Learning, Natural Language Processing (NLP), and the TMDB API. The system analyzes movie metadata such as genres, keywords, overview, cast, and director information to generate accurate movie recommendations. Text preprocessing and feature engineering techniques are applied to combine important movie attributes into text vectors using CountVectorizer. Cosine similarity is then used to identify and recommend movies that are most similar to the selected movie. An interactive Streamlit web application was developed where users can search and select movies to instantly receive the top recommended movies along with posters, ratings, and release year information fetched dynamically from the TMDB API. This project demonstrates practical implementation of recommendation systems, NLP-based feature extraction, API integration, and interactive web app development.",
-  "techStack": [
-    "Python",
-    "Streamlit",
-    "Pandas",
-    "NumPy",
-    "Scikit-learn",
-    "NLP",
-    "TMDB API"
-  ],
-  "features": [
-    "Content-based movie recommendation engine",
-    "Feature engineering using genres, cast, keywords, overview, and director",
-    "Text vectorization using CountVectorizer",
-    "Cosine similarity-based recommendation generation",
-    "Interactive Streamlit web application",
-    "Dynamic movie posters and details using TMDB API",
-    "Top 5 similar movie recommendations",
-    "Secure API key handling using environment variables",
-    "Git LFS support for large files",
-    "Clean project structure and documentation"
-  ],
-  "mainImage": "assets/project-media/movie-recommendation-home.png",
-  "mediaGallery": [
-    {
-      "type": "image",
-      "title": "Movie Recommendation Homepage",
-      "url": "assets/project-media/movie-recommendation-home.png",
-      "alt": "Movie recommendation system homepage"
-    },
-    {
-      "type": "image",
-      "title": "Recommendation Results",
-      "url": "assets/project-media/movie-recommendation-output.png",
-      "alt": "Recommended movies output screen"
-    }
-  ],
-  "outputScreenshots": [
-    "assets/project-media/movie-recommendation-home.png",
-    "assets/project-media/movie-recommendation-output.png"
-  ],
-  "demoVideo": "",
-  "liveDemoLink": "",
-  "githubLink": "https://github.com/Neel-Patel-0109/movie-recommendation-system",
-  "status": "Completed",
-  "highlight": true
-}
+    "title": "SMS Spam Detection System",
+    "category": "Machine Learning / NLP",
+    "shortDescription": "A machine learning model that classifies SMS messages as spam or ham using NLP techniques.",
+    "detailedDescription": "This project focuses on building an SMS Spam Detection System using Natural Language Processing (NLP) and Machine Learning. It involves preprocessing raw text data through tokenization, stopword removal, and stemming, followed by feature extraction using TF-IDF. A Multinomial Naive Bayes classifier is trained on the processed data to accurately classify messages as spam or ham. The model achieves high performance with strong accuracy and precision, and supports real-time SMS prediction. This project demonstrates practical implementation of text classification, feature engineering, and evaluation techniques.",
+    "techStack": [
+      "Python",
+      "Scikit-learn",
+      "NLP",
+      "TF-IDF",
+      "Pandas",
+      "NumPy"
+    ],
+    "features": [
+      "Text preprocessing (tokenization, stopword removal, stemming)",
+      "Feature extraction using TF-IDF",
+      "Model : Multinomial Naive Bayes classification",
+      "High accuracy and precision model",
+      "Real-time SMS classification (Spam/Ham)",
+      "Model evaluation using confusion matrix"
+    ],
+    "mainImage": "assets/project-media/sms-spam-main.png",
+    "mediaGallery": [
+      {
+        "type": "image",
+        "title": "Model Output - Spam",
+        "url": "assets/project-media/sms-spam-output-spam.png",
+        "alt": "SMS spam detection prediction output"
+      },
+      {
+        "type": "image",
+        "title": "Model Output - Ham",
+        "url": "assets/project-media/sms-spam-output-ham.png",
+        "alt": "SMS spam detection prediction output"
+      }
+    ],
+    "outputScreenshots": [
+      "assets/project-media/sms-spam-output-spam.png",
+      "assets/project-media/sms-spam-output-ham.png"
+    ],
+    "demoVideo": "",
+    "liveDemoLink": "",
+    "githubLink": "https://github.com/Neel-Patel-0109/SMS-Spam",
+    "status": "Completed",
+    "highlight": true
+  },
+  {
+    "title": "Movie Recommendation System",
+    "category": "Machine Learning / Recommendation System",
+    "shortDescription": "A content-based movie recommendation system that suggests similar movies using NLP and cosine similarity techniques.",
+    "detailedDescription": "This project focuses on building an intelligent Movie Recommendation System using Machine Learning, Natural Language Processing (NLP), and the TMDB API. The system analyzes movie metadata such as genres, keywords, overview, cast, and director information to generate accurate movie recommendations. Text preprocessing and feature engineering techniques are applied to combine important movie attributes into text vectors using CountVectorizer. Cosine similarity is then used to identify and recommend movies that are most similar to the selected movie. An interactive Streamlit web application was developed where users can search and select movies to instantly receive the top recommended movies along with posters, ratings, and release year information fetched dynamically from the TMDB API. This project demonstrates practical implementation of recommendation systems, NLP-based feature extraction, API integration, and interactive web app development.",
+    "techStack": [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "NLP",
+      "TMDB API"
+    ],
+    "features": [
+      "Content-based movie recommendation engine",
+      "Feature engineering using genres, cast, keywords, overview, and director",
+      "Text vectorization using CountVectorizer",
+      "Cosine similarity-based recommendation generation",
+      "Interactive Streamlit web application",
+      "Dynamic movie posters and details using TMDB API",
+      "Top 5 similar movie recommendations",
+      "Secure API key handling using environment variables",
+      "Git LFS support for large files",
+      "Clean project structure and documentation"
+    ],
+    "mainImage": "assets/project-media/movie-recommendation-home.png",
+    "mediaGallery": [
+      {
+        "type": "image",
+        "title": "Movie Recommendation Homepage",
+        "url": "assets/project-media/movie-recommendation-home.png",
+        "alt": "Movie recommendation system homepage"
+      },
+      {
+        "type": "image",
+        "title": "Recommendation Results",
+        "url": "assets/project-media/movie-recommendation-output.png",
+        "alt": "Recommended movies output screen"
+      }
+    ],
+    "outputScreenshots": [
+      "assets/project-media/movie-recommendation-home.png",
+      "assets/project-media/movie-recommendation-output.png"
+    ],
+    "demoVideo": "",
+    "liveDemoLink": "",
+    "githubLink": "https://github.com/Neel-Patel-0109/movie-recommendation-system",
+    "status": "Completed",
+    "highlight": true
+  },
+  {
+    "title": "RentMyLab",
+    "category": "Full-Stack Development / Machine Learning",
+    "shortDescription": "A multi-tenant lab and equipment booking platform for colleges, featuring role-based access control, real-time slot booking, and ML-powered maintenance and recommendation systems.",
+    "detailedDescription": "RentMyLab is an enterprise-grade, multi-tenant web platform built to solve a real problem in engineering colleges — expensive lab equipment sitting idle in one department while students elsewhere have no access to it. The platform enables students and staff across multiple colleges (LJ, SAL, Silver Oak, GLS, LDC, NIRMA) to discover, book, and manage shared laboratory space and equipment through a single unified system. Built on Django, the platform implements a four-tier role-based access control (RBAC) system — Super Admin, College Admin, Lab Manager, and Student — each with dedicated dashboards, permissions, and scoped data access, allowing every institution to manage its own labs independently within a shared platform. At its core is a conflict-free slot booking engine that validates schedules in real time, runs multi-step approval workflows, and tracks live check-in/check-out with a 15-minute validation buffer to prevent no-shows and double-booking. Beyond the booking system, RentMyLab integrates explainable machine learning rather than black-box automation: a rule-weighted recommendation engine that scores labs on department match, availability, crowd density, rating, and maintenance risk; a Linear Regression model that predicts equipment Remaining Useful Life (RUL) to flag maintenance needs before failure; and a Logistic Regression model that predicts booking cancellation risk so admins can intervene proactively. The platform also features live analytics dashboards built with Chart.js for usage trends, department-wise booking distribution, and real-time equipment status, backed by JSON REST APIs powering the equipment and lab catalog.",
+    "techStack": [
+      "Python",
+      "Django",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "SQLite",
+      "Bootstrap 5",
+      "Chart.js",
+      "REST APIs"
+    ],
+    "features": [
+      "Multi-tenant architecture supporting multiple colleges on one platform",
+      "Four-tier role-based access control (Super Admin, College Admin, Lab Manager, Student)",
+      "Real-time, conflict-free slot booking engine with approval workflows",
+      "Live check-in/check-out tracking with 15-minute validation buffer",
+      "Rule-weighted lab recommendation engine based on department match, availability, and crowd density",
+      "Linear Regression model predicting equipment Remaining Useful Life (RUL)",
+      "Logistic Regression model predicting booking cancellation risk",
+      "Interactive Chart.js dashboards for usage trends and booking analytics",
+      "JSON REST APIs for equipment and lab catalog data",
+      "Centralized platform-wide analytics for Super Admin across all colleges",
+      "Maintenance alert system flagging at-risk equipment"
+    ],
+    "mainImage": "assets/project-media/rentmylab-landing.png",
+    "mediaGallery": [
+      {
+        "type": "image",
+        "title": "Landing & Login Page",
+        "url": "assets/project-media/rentmylab-landing.png",
+        "alt": "RentMyLab landing and login page"
+      },
+      {
+        "type": "image",
+        "title": "Super Admin Dashboard – Multi-College Platform Management",
+        "url": "assets/project-media/rentmylab-superadmin-dashboard.png",
+        "alt": "Super admin dashboard showing all colleges, labs, and equipment stats"
+      },
+      {
+        "type": "image",
+        "title": "College Admin Dashboard – Approvals & Equipment Oversight",
+        "url": "assets/project-media/rentmylab-college-admin-dashboard.png",
+        "alt": "College admin dashboard for LJ University showing pending approvals and campus labs"
+      },
+      {
+        "type": "image",
+        "title": "Student Dashboard – Browse & Book Lab Equipment",
+        "url": "assets/project-media/rentmylab-student-dashboard.png",
+        "alt": "Student dashboard showing available labs, equipment, and booking options"
+      }
+    ],
+    "outputScreenshots": [
+      "assets/project-media/rentmylab-landing.png",
+      "assets/project-media/rentmylab-superadmin-dashboard.png",
+      "assets/project-media/rentmylab-college-admin-dashboard.png",
+      "assets/project-media/rentmylab-student-dashboard.png"
+    ],
+    "demoVideo": "",
+    "liveDemoLink": "",
+    "githubLink": "https://github.com/Neel-Patel-0109/RentMyLab",
+    "status": "Completed",
+    "highlight": true
+  }
 ]
