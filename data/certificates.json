@@ -25,10 +25,18 @@
   },
   {
     "title": "Introduction to HTML, CSS, & JavaScript",
-    "issuer": "Coursera / Platform Name",
+    "issuer": "Coursera",
     "date": "2024",
     "imageUrl": "assets/certificates/html-css-js.png",
     "credentialUrl": "",
     "description": "Completed foundational training in frontend web technologies."
+  },
+  {
+    "title": "Exploratory Data Analysis for Machine Learning",
+    "issuer": "IBM",
+    "date": "2026",
+    "imageUrl": "assets/certificates/Exploratory Data Analysis for Machine Learning.png",
+    "credentialUrl": "PBX7YW85HPZL",
+    "description": "Exploratory Data Analysis for Machine Learning — IBM (Coursera)."
   }
 ]
